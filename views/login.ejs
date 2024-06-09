@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login</title>
+</head>
+<body>
+    <h1>SILAHKAN LOGIN TERLEBIH DAHULU</h1>
+    <br>
+    
+    <div>
+        <table>
+            <form action="/login" method="POST">
+            <tr>
+                <td>
+                    <Label for="username">Username</Label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Label for="password">Password</Label>
+                </td>
+                <td>
+                    <input type="text" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Login</button>
+                </td>
+            </tr>
+            </form>
+        </table>
+        <p>Belum punya akun? <a href="/register">Daftar di sini</a></p>
+    </div>
+</body>
+</html>
